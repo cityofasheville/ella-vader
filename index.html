@@ -256,9 +256,13 @@ width: 7em;
     </div>
   </div>
   <div class="padding-bottom"></div>
+  <button onclick = "goFullscreen()"></button>
   </div>
     <script type="text/javascript">
-    document.getElementById("wrapper").webkitRequestFullScreen();
+    var goFullscreen = function(){
+      document.getElementById("wrapper").webkitRequestFullScreen();
+    }
+    
     
   </script>
 </body>
